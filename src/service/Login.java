@@ -21,8 +21,6 @@ public class Login {
          this.passWord = passWord;
          this.maxAttempts = 3;
          this.attempts = 0;
-
-
      }
 
      public boolean authenticator (String enterUser, String enterPassWord){
@@ -48,7 +46,6 @@ public class Login {
          return false;
          }
      }
-
      public int getMaxAttempts(){
 
          return maxAttempts - attempts;

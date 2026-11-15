@@ -1,5 +1,7 @@
 package service;
 
+import model.Form;
+
 public class ServiceLogin {
 
      private Login login;
@@ -11,7 +13,6 @@ public ServiceLogin(){
      } catch (IllegalArgumentException e){
          System.out.println("Wrong data!" + e.getMessage());
      }
-
    }
 
    public boolean loginUser (String userInput, String passInput){
@@ -22,13 +23,11 @@ public ServiceLogin(){
         System.out.println("Wrong data!" + e.getMessage());
         return false;
     }
-}
+   }
 
 public int getMaxAttempts (){
      return login.getMaxAttempts();
 
     }
-
-
 
 }
