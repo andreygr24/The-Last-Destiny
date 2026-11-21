@@ -21,7 +21,7 @@ public class ServiceMembers {
             members.add(new Members("Mix","Priest", true, "GM"));
             members.add(new Members("Wonderland","Paladin",true,"GM"));
             members.add(new Members("Long Cat","Priest",true,"Core Raider"));
-            members.add(new Members("Apahae","Hunter",true,"Raider"));
+            members.add(new Members("Apahea","Hunter",true,"Raider"));
             members.add(new Members("Dark Soul","Warlock",true,"Core Raider"));
             members.add(new Members("OMG Banana","Druid",true,"Trial"));
             members.add(new Members("Nightmare","Warrior",true,"Trial"));

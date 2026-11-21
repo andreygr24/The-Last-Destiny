@@ -5,5 +5,5 @@ import java.util.Locale;
 
 public class Currency {
 
-     private static final NumberFormat Currency = NumberFormat.getCurrencyInstance(new Locale("es","CR"));
+     public static final NumberFormat currency = NumberFormat.getCurrencyInstance(new Locale("es","CR"));
 }
